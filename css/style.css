@@ -1,348 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lander page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
 
-body {
-  padding: 0px;
-  margin: 0px;
-  text-transform: capitalize;
-  font-family: Arial, Helvetica, sans-serif ;
-}
-/*control font */
-h5 {
-  font-size: 21px;
-}
+<body>
+<nav>  
+    <div>
+      <img src="img\logo.png" class="img" alt="logo"  title="logo website">
+    </div>
+    <ul>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Templates</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <div>
+      <button class="button2" type="submit"> <B>14 DAY FREE TRIAL</B> </button>
+      <button class="button1" type="submit"> <B>LOGIN </B></button>
+    </div>
 
-h2{
-  
-  color: #5bb5df;
+</nav>
+  <header>
+   <div class="contact">
+    <h1>CANTACT US</h1>
+    <P>Our dream team of conversion specialists are looking forward to hearing from you!    </P> 
+    </div>
+  </header>
  
-}
-h4 {
-  font-weight:normal;
-  padding-bottom: 22px;
-}
-/*control first header size, color, margin */
-header h1 {
-  color: #fff;
-  font-size: 50px;
-  margin-top: 0px;
+
+
+<div class="grid-container">
  
-}
-/*control header */
+<div class="item3">
+  <h2> REACH OUT TO US!  </h2>
 
-header {
-  background-color: #f38e59;
-  text-align: center;
-  margin-top: 0px;
-  height: 250px;
-  padding-bottom: 56PX;
-}
+  <p>Got a question about Lander? Want to partner with us? Have some suggestions <br>or just  want to say “Hi”? Contact Us:</p>
+<form>
+  <input class="rows" type="text" placeholder="First name">
+  <input class="rows" type="text" placeholder="Last name">
+  <input class="rows" type="text" placeholder="Your Email Address">
+  <input class="rows" type="text" placeholder="Phone Number">
+  <textarea placeholder="Message" id="Message" ></textarea>
+  <input class="SUBMIT" type="button" value="SUBMIT">
+</div>
 
+<div class="item1">
+  <h2> LANDER TEAM  </h2>
+  <P>Not sure where to start? <a href="#">Need help </a> adding that extra mojo to your landing page? Visit our Help Center or get in touch with us:</P>
+  <h5>Others ways to connect  </h5>
+  <i id="facebook_icon" class="fab fa-facebook"></i>
+  <h4>Be the first on your block to get product updates, announcements, news and lots of really good content,
+    <a href="#">like us on Facebook</a> today!</H4>
+    <i id="twitter_icon" class="fab fa-twitter"></i>
+  <h4>Want the best tips on conversion optimization, landing pages, content marketing, SEO & SEM? Then
+    <a href="#">follow us on Twitter at @landerapp</a></h4>
 
-/* ******************************** */
+    <i id="linkedin_icon" class="fab fa-linkedin-in"></i>
+  <h4><a href="#">Follow us on LinkedIn </a>to get the latest updates, news and information about us and also check our weekly blog updates!</h4>
+</div>
+</div>
+</form>
 
-
-/*control first nav size , color */
-nav{
-background-color:#f38e59;
-display: flex;
-justify-content: space-around;
-padding-top: 4px;
-position:fixed;
-padding-left: 74px;
-padding-right: 160PX;
-
-}
-/*control ul inside first nav */
-nav ul{
-  text-decoration: none;
-  display: flex;
-  list-style-type: none;
-  margin-right: 10px;
-  padding: 0px;
+<footer class="pre-footer">
   
-}
-/*control nav hover */
-nav a:hover{
-background-color: rgba(255, 255, 255, 0.548); /* Green */
+  <div>
+    <UL>
+      <li> <B> Lander</B> </li>
+      <li> <a href="#">Landing Pages</a> </li>
+      <li> <a href="#">Landing Page Templates</a> </li>
+      <li> <a href="#">Online Marketing Resources</a> </li>
+      <li> <a href="#">Features</a> </li>
+      <li> <a href="#">Integrations</a> </li>
+      <li> <a href="#">Inbound Marketing</a> </li>
+      <li> <a href="#">Marketing Automation</a> </li>
+    </UL>
+  </div>
+  <div>
+    <UL>
+    <li> <B>Help</B> </li>
+    <li> <a href="#">Support</a> </li>
+    <li> <a href="#">Help Center</a> </li>
+    <li> <a href="#">Contact Us</a> </li>
+  </UL>
+</div>
+  <div>
+    <UL>
+      <li> <B>Resources</B> </li>
+      <li> <a href="#">Ebooks</a> </li>
+      <li> <a href="#">Infographics</a> </li>
+      <li> <a href="#">Tools</a> </li>
+      <li> <a href="#">Videos</a> </li>
+      <li> <a href="#">Podcasts</a> </li>
+  </div>
+    <UL>
 
-
-}
-
-/*control list inside first nav */
-nav li{
-  text-decoration: none;
-  margin-left: 40px;
-}
-/*control logo size */
-
-.img{
-  width: 140px;
-  height: 48px;
-  margin-top: 3px;
-  margin-left: 34px;
-  margin-right: 22px;
-  
-}
-/*control tag a inside liste */
-
-li a {
-  display: block;
-  text-decoration: none;
-  color: aliceblue;
-}
-/*control button 14 DAY FREE TRIAL */
-
-.button1 {
-  background-color: #f38e59; 
-  color: #fff; 
-  border: 2px solid #fff;
-  border-radius: 5px;
-  padding: 14px 41px;
-  margin: 5px;
-  padding-left: 26px;
-  padding-right: 26px;
-  
-}
-/*control hover button 14 DAY FREE TRIAL */
-
-.button1:hover {
-  background-color: rgba(255, 255, 255, 0.548); /* Green */
-  cursor: pointer; 
- 
-}
-/*control button LOGIN */
-.button2 {
-  background-color: #02202f ;  
-  color: #fff;  
-  border: none;
-  border-radius: 5px;
-  padding: 14px 41px;
-  margin: 5px;
-  padding-left: 19px;
-  padding-right: 23px;
-  margin-left: 32px;
-  margin-right: 14px;
-
-}
-/*control hover button LOGIN */
-.button2:hover {
-  background-color: rgb(4, 65, 96); 
-  cursor: pointer; 
-}
-/*control contact us */
-
-.contact {
-
-   display: inline-block;
-   margin-top: 128px;
-
-}
-
-
-/* ******************************** */
-
-
-/*control div for iteam3, iteam1 "REACH OUT TO US!
-" "LANDER TEAM"  */
-
-.grid-container {
-  margin-top: 45px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-/*control form */
-
-.rows {
-  display: flex;
-  display: grid;
-  padding-bottom: 12px;
-  border-radius: 4px;
-  border-color: rgb(153, 153, 153);
-  margin-bottom: 20PX;
-  width: 465px;
-
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-    
-  border: 1px solid #ccc;
-    border-radius: 4px;
-  resize: vertical;
-  }
- /*control iteam1 "LANDER TEAM" */
-
-.item1 a { grid-area: 2 / 3 / 1 / 4;
-  color: #f38e59;
-  text-decoration: none;
-  font-weight: 500;}
-.item1 { grid-area: 2 / 3 / 1 / 4;
-  padding-right: 60PX;
-  padding-right: 80PX; 
-  text-decoration: none;}
-  /*control iteam3 "REACH OUT TO US!" */
-.item3 { grid-area: 1 / 3 / 1 / 2;;
-  padding-right: 80PX;
-  margin-left: 80px; }
-
-.item3  P {
-  font-size: 13PX;
-  padding-bottom: 48px;
-}
-.item1  P {
-  font-size: 13PX;
-  padding-bottom: 48px;
-}
-
-  /*control BUTTON "SUBMIT" */
-
-.SUBMIT {
-  display: flex;
-  background-color: #f38e59 ;  
-  display: flex;
-  flex-flow: column wrap;
-    color: #fff;  
-  border: none;
-  border-radius: 5px;
-  padding: 14px 41px;
-  margin-top: 7px;
-  margin-right: 75px;
-  margin: 1.7em 0;
-  margin-left: 343px;
-
-}
-.SUBMIT:hover {
-  background-color:#f49c6c98; /* Green */
-  cursor: pointer; 
-}
-  /*control Message BOX "Message" */
-
-#Message {
-  padding-bottom: 77px;
-
-  
-}
-
-  /*control BIG ICON  */
-
-i {
-  float: left;
-}
-
-#facebook_icon {
-  color: #f38e59;
-  font-size: 67px;
-  float: left;
-  padding-right: 6px;
-}
-#linkedin_icon {
-  color: #fff;
-  font-size: 50px;
-  margin-right: 10px;
-  background-color: #f38e59;
-  border-radius: 50%;
-  text-align: center;
-  padding: 14px;
-  
-}
-#twitter_icon {
-  color: #fff;
-  font-size: 50px;
-  margin-right: 10px;
-  background-color: #f38e59;
-  border-radius: 50%;
-  padding: 10px;
-  
-}
-
-/* ******************************** */
-
-
-  /*control BIG FOOTER  */
-
-.pre-footer {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 10px;
-  background-color: #404040;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  
-}
-
-  /*control small fotter */
-
-.footer {
-  display: grid;
-  grid-template-columns: auto ;
-  grid-gap: 10px;
-  background-color: #333333;
-  padding-left: 65px;
-  padding-right: 40px;
-  color: #ccc;
- 
-}
-
-.pre-footer li {
-  display: block;
-  text-decoration: none;
-  color: rgb(236, 136, 22);
-
-}
-
-  /*control button in big footer "CREATE YOUR LANDING PAGE" */
-
-.button_footer {
-  background-color: #02202f ;  
-  color: #fff;  
-  border: none;
-  border-radius: 5px;
-  margin-top: 25px;
-  width: 173px;
-  height: 57px;
-}
-
-.button_footer:hover {
-  background-color: rgb(4, 65, 96); 
-  cursor: pointer; 
-}
-  /*control font in big footer */
-
-.pre-footer a {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  line-height: 20PX;
-}
-.pre-footer a:hover {
-  color: #f38e59;
- 
-}
-.pre-footer B {
-  color: #fff;
-  font-size: 16px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #f38e59;
-}
-
-.size_font P {
-  color: #fff;
-  font-size: 16px;
-}
-  /*control small icon social media */
-
-.list_icons i{
-  color: #f39b6b;
-  margin: 5px;
-  font-size: 20px;
-}
-
-
-/* ******************************** */
+    <li> <B>Landing Pages</B> </li>
+    <li> <a href="#">What is a Landing Page</a> </li>
+    <li> <a href="#">PPC Ads</a> </li>
+    <li> <a href="#">SEO Traffic</a> </li>
+    <li> <a href="#">Mobile Landing Pages</a> </li>
+    <li> <a href="#">Content Writing</a> </li>
+    <li> <a href="#">Buyer Personas</a> </li>
+    <li> <a href="#">Target Audience</a> </li>
+      
+    </UL>
+  </div>  
+  <div class="size_font">
+    <UL>
+    <li>  <B> Commercial </B> </li>
+    <li> <a href="#">Why Lander </a> </li>
+    <li> <a href="#">Pricing</a> </li>
+    <li> <P> Stay Tuned! </P> </li>
+    <li class="list_icons">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin-in"></i>
+   </li>
+    </UL>
+  </div>
+  <div>
+    <UL>
+      <li> <B>Try Lander for Free </B> </li>
+      <li> <a>Start a 14 Day Free Trial on </a>
+      <li> <a>any of our paid plans. No </a> </li>
+      <li> <a>credit card required.</a></li>
+      <button class="button_footer" type="submit"> <B>CREATE YOUR LANDING PAGE</B> </button>
+   </UL>
+  </div>
+</footer>
+<footer class="footer">
+<Div>
+  <P>© 2021 Lander. All right reserved. <a href="#">Terms of Use and Privacy Policy </a> </P>
+</Div>
+</footer>
+</body>
+</html>
